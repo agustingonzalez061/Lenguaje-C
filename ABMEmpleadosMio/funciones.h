@@ -26,13 +26,14 @@ int isEmpty;
 
 int menu();
 void inicializarEmpleados(eEmpleado[], int);
-void mostrarEmpleados(eEmpleado[], int);
-void mostrarEmpleado(eEmpleado);
+void hardCode(eSector []);
+void mostrarEmpleados(eEmpleado vec[], int tam, eSector sector);
+void mostrarEmpleado(eEmpleado emp, eSector sector);
 int buscarLibre(eEmpleado[], int);
 int buscarEmpleado(eEmpleado[], int, int);
 void altaEmpleado(eEmpleado vec[], int tam);
-void bajaEmpleado(eEmpleado[], int);
-void modificar(eEmpleado vec[], int tam);
-void ordenar (eEmpleado vec[], int tam);
+void bajaEmpleado(eEmpleado vec[], int tam,eSector sector);
+void modificar(eEmpleado vec[], int tam, eSector sector);
+void ordenar (eEmpleado vec[], int tam,eSector sector)
 
 #endif // FUNCIONES_H_INCLUDED

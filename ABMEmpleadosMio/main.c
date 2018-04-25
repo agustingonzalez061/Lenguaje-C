@@ -9,8 +9,9 @@ int main()
 {
     int salir = 0;
     eEmpleado gente[TAM];
-
+    eSector sectores [5];
     inicializarEmpleados(gente, TAM);
+    hardCode(sectores);
 
     do
     {
